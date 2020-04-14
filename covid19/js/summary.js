@@ -1,6 +1,5 @@
 function renderSummary() {
-    const url = 'https://us-central1-virtual-bonito-170805.cloudfunctions.net/covidSummary';
-
+    const url = 'https://us-central1-covid19-274203.cloudfunctions.net/covidSummary';
     fetch(url).then((res) => {
         res.json().then((result) => {
 
