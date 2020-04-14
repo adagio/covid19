@@ -1,5 +1,7 @@
 function renderSummary() {
     const url = 'https://us-central1-covid19-274203.cloudfunctions.net/covidSummary';
+    //const url = 'http://localhost:8080'
+
     fetch(url).then((res) => {
         res.json().then((result) => {
 

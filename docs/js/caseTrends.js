@@ -1,6 +1,6 @@
 function renderCaseTrends(chart) {
-    const url = 'https://us-central1-virtual-bonito-170805.cloudfunctions.net/covidCaseTrends';
-    
+    //const url = 'https://us-central1-virtual-bonito-170805.cloudfunctions.net/covidCaseTrends';
+    const url = 'http://localhost:8084'
     fetch(url).then((res) => {
         res.json().then(result => {
             var lineChart2 = document.getElementById(chart);

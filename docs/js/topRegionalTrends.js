@@ -1,6 +1,7 @@
 function renderTopRegionalTrends(chart) {
-    const url = 'https://us-central1-virtual-bonito-170805.cloudfunctions.net/covidTopRegionalTrends';
-    
+    //const url = 'https://us-central1-virtual-bonito-170805.cloudfunctions.net/covidTopRegionalTrends';
+    const url = 'http://localhost:8081'
+
     fetch(url).then((res) => {
         res.json().then((result) => {
             var lineChart1 = document.getElementById(chart);

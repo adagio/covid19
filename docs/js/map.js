@@ -1,6 +1,8 @@
 function initMap() {
   const maxI = 50, rad = 24, opac = .6;
-  const url = 'https://us-central1-virtual-bonito-170805.cloudfunctions.net/covidLocations';
+  const url = 'https://us-central1-covid19-274203.cloudfunctions.net/covidLocations';
+  //const url = 'http://localhost:8083'
+  
   document.getElementById('map').style.display = 'block';
   let map = new google.maps.Map(document.getElementById('map'), {
     zoom: 6,

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "local": "functions-framework --target=covidLocations",
+    "local": "functions-framework --target=covidLocations --port 8083",
     "deploy": "./deploy.sh"
   },
   "author": "Jersson Dongo",
